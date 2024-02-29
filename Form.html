@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Francis's website</title>
+	<link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+	<header id="header">
+		<h1 class="container"><img src="images/logo.png">play with us</h1>
+	</header>
+	<nav>
+		<ul class="container">
+			<li><a href="Home.html">遊戲介紹</a></li>
+			<li><a href="vpython.html">組員介紹</a></li>
+			<li><a href="tutor.html">還沒想</a></li>
+			<li><a href="Form.html">聯絡我們</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="title">
+			Registration Form
+		</div>
+		<div class="form">
+			<form action="" method="POST">
+				<div class="input_field">
+					<label>Name</label>
+					<input type="text" class="input">
+				</div>
+				<div class="input_field">
+					<label for="birth">birth</label>
+					<input type="date" class="input">
+				</div>
+
+				<div class="input_field">
+					<label for="gender">gender</label>
+					<select name="gender">
+						<option value="Female" class="option" id="Female">Female</option>
+						<option value="male" class="option" id="Male">Male
+						</option>
+					</select>
+				</div>
+				<div class="input_field">
+					<label for="password">Password</label>
+					<input type="password" class="input" id="password">
+				</div>
+				<div class="input_field">
+					<label for="confirm_password">Confirm Password</label>
+					<input type="password" class="input" id="confirm_password">
+				</div>
+				<div class="input_field">
+					<label>Email</label>
+					<input type="text" class="input">
+				</div>
+				<div class="input_field">
+					<label>Phone Number</label>
+					<input type="text" class="input">
+				</div>
+				<div class="input_field">
+					<label>your introduce</label>
+					<textarea class="textarea"></textarea>
+				</div>
+				<div class="input_field">
+					<input type="submit" class="btn" value="Registration" onclick="alert('Finish')">
+				</div>
+				<div class="input_field">
+					<input type="reset" class="btn" value="Reset" onclick="alert('type again')">
+				</div>
+			</form>
+		</div>
+	</main>
+	<footer id="footer">
+		Copyright &copy; 2021 Dropcircle
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+
+*{font-family: 'Playfair Display', serif;
+}
+body{
+	margin: o;
+}
+.container{
+	width: 80%;
+	margin:  0 auto;
+}
+header{
+	background: darkblue;
+	color: whitesmoke;
+}
+header img{
+	max-width:70px;
+	margin: 0 auto;
+}
+
+
+
+
+header h1{
+	line-height: 50px;
+}
+nav{
+	background: cadetblue;
+	line-height: 2em;
+	font-size: 20px;
+
+}
+nav li{
+	margin: o;
+	display: inline;
+	
+}
+nav li a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+nav li a:hover{
+	color: red;
+}
+
+
+footer{
+	background: black;
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+}
+@media(max-width: 800px){
+	main{
+		flex-wrap: wrap;
+	}
+	article{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+}
+
+
+
+
+#showcase{
+	min-height: 400 px;
+	
+	background-position: center left;
+	text-align: center;
+	padding-top: 50px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	margin: 20px auto;
+}
+
+#showcase h1{
+	color: white;
+	font-size: 30px;
+	text-align: up-right;
+}
+
+
+
+body{
+	background-image: url(images/fire.jpg);
+}
+
+main{
+	display: flex;
+	min-height: 300px;
+	background-image: url(images/back.jpg);
+
+}
+
+main h1{
+	font-size: 30px;
+	color: brown;
+}
+main ul{
+	color: blue;
+}
+article{
+	width: 80%;
+	padding:0.30px;
+}
+aside{
+	width: 20%;
+	background: dimgray;
+	color: white;
+	padding: 30px;
+}
+aside img{
+	max-width:100%;
+	margin: 0 auto;
+}
+
+section img{
+	max-width:100%;
+	margin: 0 ;
+	display: flex;
+}
+
+
